@@ -1,0 +1,31 @@
+.jumbotron {
+	background-color: #ff9999;
+}
+
+.panel {
+	background-color: #d0fde7;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #6ef9b3;
+}
+
+
+#taylorImage{
+    -webkit-box-shadow: -5px 3px 93px 17px rgba(117,8,117,0.59);
+-moz-box-shadow: -5px 3px 93px 17px rgba(117,8,117,0.59);
+box-shadow: -5px 3px 93px 17px rgba(117,8,117,0.59);
+}
+
+#jumbotronx{
+    -webkit-box-shadow: -5px 3px 93px 17px rgba(204,4,4,1);
+-moz-box-shadow: -5px 3px 93px 17px rgba(204,4,4,1);
+box-shadow: -5px 3px 93px 17px rgba(204,4,4,1);
+}
+
+#gamestats{
+    -webkit-box-shadow: -5px 3px 93px 17px rgba(94,204,4,1);
+-moz-box-shadow: -5px 3px 93px 17px rgba(94,204,4,1);
+box-shadow: -5px 3px 93px 17px rgba(94,204,4,1);
+}
