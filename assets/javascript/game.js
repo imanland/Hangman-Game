@@ -32,7 +32,8 @@ function Game(list) {
   this.setupNewGame = function() {
     // Select a random taylor song from the list
     var randomNum = getRandomIntInclusive(0, this.allSongsList.length - 1);
-    this.song = this.allSongsList[randomNum].toLowerCase();
+    this.songLink = this.allSongsList[randomNum];
+    this.song = this.songLink.toLowerCase();
 
     // Create a list of characters for the song string
     this.songList = this.song.split('');
@@ -188,7 +189,7 @@ $(document).ready(function() {
 
     // Check if the game should be restarted at this time
     if (hangman.gameOver == true) {
-      $("#taylorImage").attr("src", "./assets/images/" + hangman.song + ".jpg");
+      $("#taylorImage").attr("src", "./assets/images/" + hangman.songLink + ".jpg");
       hangman.setupNewGame();
     }
   }); // user keyboard press
